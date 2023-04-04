@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/section.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/ImgModal.css">
+    <link rel="stylesheet" href="./styles/ContactModal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="#">LUCAS MONTANA</a>
+    </header>
+    <main>
+        <div class="overlay"></div>
+        <section>
+
+            <div class="container">
+                <div class="main-block">
+                    <div class="left-box">
+                        <div class="photo">
+                            <img src="./images/Rectangle 2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="right-box">
+                        <h1>Hey. I'm Lucas<br>
+                            And I'm a professional photographer</h1>
+                        <div class="line"></div>
+                        <h2>Curabitur blanit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus.</h2>
+                        <p>Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur
+                            blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                            Vestibulum id ligulas semper. Cum sociis natoque penatibus et magnis maecenas. Donec
+                            ullamcorper nulla non metus auctor fringilla. </p>
+                        <button class="btn-contact">CONTACT ME</button>
+                    </div>
+                    <div class="modal-contact">
+                        <button class="close-contact">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.66671 23.6667L0.333374 21.3333L9.66671 12L0.333374 2.66668L2.66671 0.333344L12 9.66668L21.3334 0.333344L23.6667 2.66668L14.3334 12L23.6667 21.3333L21.3334 23.6667L12 14.3333L2.66671 23.6667Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                        <div class="contact-content">
+                            <h1>Contact me</h1>
+                            <p>Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus.
+                                Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum
+                                at eros.</p>
+                            <input type="text" placeholder="Your name..." id="name">
+                            <input type="email" placeholder="Your email..." id="email">
+                            <textarea type="text" id="text"></textarea>
+                            <button class="btn-contact send">SEND MESSAGE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="portfolio-block">
+                    <h3>Portfolio</h3>
+                    <p>Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur
+                        blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                    <div class="img-block"></div>
+                    <div class="modal">
+                        <button class="close">CLOSE</button>
+                        <img class="modal-content">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="contact">
+                <div class="contact-img">
+                    <img src="./images/Rectangle 2.png" alt="">
+                </div>
+                <div class="contact-text">
+                    <h4>LUCAS MONTANA</h4>
+                    <a href="tel:+47682525255">+4 768 25 25 255</a>
+                    <div class="address">Poland, Warsaw</div>
+                </div>
+            </div>
+            <div class="rights">
+                <text>All rights reserved. “World Photos”, Inc</text>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
